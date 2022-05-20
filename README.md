@@ -1,4 +1,4 @@
-# fastapi-service-boilerplate
+# FastAPI Boilerplate
 
 A microservice skeleton so you don't need to write it yourself ever again
 
