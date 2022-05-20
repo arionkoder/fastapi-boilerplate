@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+
+  #  Change "service_name" and the VIRTUAL_HOST with the corresponding name
+  service_name:
+    build:
+      context: .
+    ports:
+      - 8080
+    volumes:
+      - ./:/src/
+    environment:
+      USE_UVICORN: "true"
+      LOCAL_DEV: "true"
